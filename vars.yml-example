@@ -21,6 +21,9 @@
 #   - https://flathub.org/repo/appstream/com.getpostman.Postman.flatpakref
 #   - https://flathub.org/repo/appstream/com.skype.Client.flatpakref
 
+distribution: 'Linux Mint'
+distribution_major_version: 19
+
 packages:
   - exa
   - deluge
