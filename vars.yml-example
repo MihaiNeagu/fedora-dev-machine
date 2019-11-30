@@ -29,3 +29,7 @@ packages:
   - deluge
   - lm_sensors
   - dconf-editor
+
+ files_to_copy:
+  - .ssh/ubuntu_home
+  - .ssh/ubuntu_home.pub

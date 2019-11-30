@@ -8,19 +8,9 @@
         - ansible_distribution != "{{ distribution }}"
         - ansible_distribution_major_version != "{{ distribution_major_version }}"
   roles:
-    - cleanup
     - common
-
-    - brave
-    - fish
-
-    - vscode
     - development-tools
-    - dotnet-core
-    - docker
-    - kubernetes
-
-    - os-configuration
+    - home_dir
     
   vars_files: 
     - vars.yml

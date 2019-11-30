@@ -1,0 +1,7 @@
+---
+
+- name: Copy files if they don't exist
+  template:
+    src: "{{item}}.j2"
+    dest: "/home/{{ansible_user}}/{{item}}"
+  loop: "{{ files_to_copy }}"

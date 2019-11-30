@@ -4,4 +4,4 @@
 sudo dnf install ansible
 
 # Run the playbook
-ansible-playbook playbook.yml --ask-become-pass
+ansible-playbook playbook.yml --ask-become-pass --ask-vault-pass

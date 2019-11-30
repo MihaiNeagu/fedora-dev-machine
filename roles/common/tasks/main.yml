@@ -7,5 +7,7 @@
        - flatpak
        - vim
        - htop
+       - python2.7
+       - python3
      state: latest
   become: yes
